@@ -25,7 +25,6 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
- mypod view for all ios applications.
                    DESC
 
   spec.homepage     = "http://EXAMPLE/mypod"
@@ -81,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/mypod.git", :branch => "main", :tag => "0.0.1" }
+  spec.source       = { :git => "http://EXAMPLE/mypod.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
